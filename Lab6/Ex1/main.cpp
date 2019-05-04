@@ -35,5 +35,7 @@ int main()
     }
 
     for (auto i : IntegerSet) std::cout << i << ' ';
+
+    file.close();
     return 0;
 }
